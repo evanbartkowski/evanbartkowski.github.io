@@ -1,0 +1,33 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}
+
+
+canvas{
+  display: block;
+  width: 100vw; /* Full screen width */
+  height: 100vh; /* Full screen height */
+  background: white;
+}
+
+#mute-button {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #f900cb; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mute-button:hover {
+  background-color: #d32f2f; /* Darker red when hovered */
+}
