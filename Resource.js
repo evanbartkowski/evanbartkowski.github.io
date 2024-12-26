@@ -1,17 +1,15 @@
 class Resources {
     constructor() {
         this.toLoad = {
-            background: "/sprites/underwater.jpg",
-            intro: "/sprites/intro.jpg",
-            start: "/sprites/startscreen.jpg",
-            blueglow: "/sprites/blueglow.png",
-            intro2: "/sprites/intro2.jpg",
-            whitepage: "/sprites/whitepage.jpg",
-            hook: "/sprites/hook.png",
-            hook2: "/sprites/hook2.png",
-            redglow: "/sprites/redglow.png",
-
-
+            background: "./sprites/underwater.jpg",
+            intro: "./sprites/intro.jpg",
+            start: "./sprites/startscreen.jpg",
+            blueglow: "./sprites/blueglow.png",
+            intro2: "./sprites/intro2.jpg",
+            whitepage: "./sprites/whitepage.jpg",
+            hook: "./sprites/hook.png",
+            hook2: "./sprites/hook2.png",
+            redglow: "./sprites/redglow.png",
         };
 
         // Bucket containing images
